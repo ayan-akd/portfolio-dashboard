@@ -40,7 +40,7 @@ export type TExperience = {
 
 export interface TSkill {
   _id?: string;
-  category: "frontend" | "backend" | "tools";
+  category: "frontend" | "backend" | "tools" | "database"
   name: string;
   icon: string;
 }
